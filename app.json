@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/doodle/doodle",
+    "pages/logs/logs",
+    "pages/1024/1024",
+    "pages/mineSweeper/index",
+    "pages/flyBird/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "1024小游戏"
+  },
+  "tabBar": {
+    "color": "#353535",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "游戏",
+        "iconPath": "./assets/diamond.png",
+        "selectedIconPath": "./assets/diamond.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "反馈",
+        "iconPath": "./assets/star.png",
+        "selectedIconPath": "./assets/star.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false,
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json"
+}

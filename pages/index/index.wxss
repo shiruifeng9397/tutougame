@@ -1,0 +1,15 @@
+/**index.wxss**/
+.index {
+  padding: 20rpx;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20rpx;
+}
+
+.more{
+  /*浅灰色*/
+	color: #aaa;
+	font-size: 14px;
+	position:fixed;
+	bottom: 20px;
+}

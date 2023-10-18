@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="index">
+  	
+	<view wx:for-items="{{gameList}}" wx:for-index="idx" wx:key="idx" class="usermotto">
+	    <button type="primary" data-path="{{item.path}}" disabled="{{disabled}}" bindtap="goToPage"> {{item.name}} </button>
+	</view>
+
+	<!-- <text class="more">更多内容，敬请期待...</text> -->
+</view>
