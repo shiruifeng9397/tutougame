@@ -5,9 +5,6 @@ var config = {
     data: {
         disable: false,
         gameList: [{
-          name: '1024',
-          path: '../1024/1024'
-        }, {
           name: '涂鸦',
           path: '../doodle/doodle'
         }, {
