@@ -1,7 +1,7 @@
 {
-  "name": "wxapp-2048",
+  "name": "tutougame",
   "version": "1.0.0",
-  "description": "2048小程序",
+  "description": "tutougame",
   "main": "app.js",
   "dependencies": {},
   "devDependencies": {},
@@ -10,17 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/natee/wxapp-2048.git"
+    "url": "git+https://github.com/shiruifeng9397/tutougame.git"
   },
   "keywords": [
-    "2048",
+    "game",
     "wechat",
     "miniprogram"
   ],
-  "author": "kerncink@gmail.com",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/natee/wxapp-2048/issues"
-  },
-  "homepage": "https://github.com/natee/wxapp-2048#readme"
+  "author": "939742644@qq.com",
+  "license": "MIT"
 }

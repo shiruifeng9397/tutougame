@@ -139,7 +139,7 @@ GameManager.prototype = {
                         tile.updatePosition(positions.next);
 
                         self.score += merged.value;
-                        if (merged.value === 2048) self.won = true;
+                        if (merged.value === 1024) self.won = true;
                     } else {
                         self.moveTile(tile, positions.farthest);
                     }

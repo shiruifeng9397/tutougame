@@ -19,7 +19,7 @@
   "compileType": "miniprogram",
   "libVersion": "3.0.0",
   "appid": "wx7eda1ff9cb24d67b",
-  "projectname": "wxapp-2048",
+  "projectname": "tutougame",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "condition": {},
